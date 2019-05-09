@@ -12,3 +12,9 @@ def contain_a(element)
     string.include?("a")
   end
 end
+
+def first_wa(element)
+  element.all? do |string|
+    string[0..1] == "wa"
+  end
+end
