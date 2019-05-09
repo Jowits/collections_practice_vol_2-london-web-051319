@@ -2,7 +2,7 @@
 def begins_with_r(element)
   i = 0
   while i < element.length
-    all = element.all?
+  all = element.all?
     if element[i].start_with?("r")
       puts true
       i += 1
