@@ -1,5 +1,6 @@
 # your code goes here
 element = ["rat", "fang", true, "rat"]
+
 def begins_with_r(element)
   i = 0
   while i < element.length
@@ -14,4 +15,4 @@ def begins_with_r(element)
   end
 end
 
-begins_with_r(element)
+
