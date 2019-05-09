@@ -11,4 +11,4 @@ def begins_with_r(element)
       i += 1
     end
   end
-end  
+end
