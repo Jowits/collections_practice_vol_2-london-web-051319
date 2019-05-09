@@ -12,3 +12,5 @@ def begins_with_r(element)
     end
   end
 end
+
+begins_with_r(element)
