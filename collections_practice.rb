@@ -15,6 +15,6 @@ end
 
 def first_wa(element)
   element.all? do |string|
-    string[0..1] == "wa"
+    string[0,2] == "wa"
   end
 end
